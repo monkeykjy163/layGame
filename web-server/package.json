@@ -1,7 +1,7 @@
 {
-  "name": "treasures",
+  "name": "layGame",
   "version": "0.0.1",
-  "private": false,
+  "private": true,
   "dependencies": {
     "express": "2.5.2"
   }

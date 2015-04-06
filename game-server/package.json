@@ -1,9 +1,9 @@
 {
-  "name": "treasures",
-  "version": "0.2.0",
-  "private": false,
+  "name": "layGame",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {
-    "pomelo":"0.4.3"
+    "pomelo":"1.0.0-pre"
     , "crc" : ">=0.0.1"
     , "pomelo-collection": ">=0.1.0"
     , "pomelo-logger": "0.0.2" 

@@ -39,10 +39,11 @@ __resources__["/main.js"] = {
     var uiInit = function() {
       var btn = document.querySelector('#login .btn');
       btn.onclick = function() {
-        var name = document.querySelector('#login input').value;
+        var name = document.getElementById('username').value;
+        var pwd = document.getElementById('password').value;
         entry(name, function() {
           loadAnimation(function() {
-            pomelo.request('connector.entryHandler.entry', {name: name}, function(data) {
+            pomelo.request('connector.entryHandler.entry', {name: name, password: pwd}, function(data) {
               pomelo.request("area.playerHandler.enterScene", {name: name, playerId: data.playerId}, function(data){
                 msgHandler.init();
                 app.init(data.data);
