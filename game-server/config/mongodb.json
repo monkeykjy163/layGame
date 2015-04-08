@@ -1,6 +1,6 @@
 {
   "development": {
-    "uri"     : "mongodb://58.63.246.234/layGame",
+    "uri"     : "mongodb://127.0.0.1/layGame",
     "options" : {
       "db"      : { "native_parser": true },
       "server"  : { "poolSize": 5, "socketOptions" : { "keepAlive": 1 } },
@@ -10,7 +10,7 @@
   },
 
   "production": {
-    "uri"     : "mongodb://58.63.246.234/layGame",
+    "uri"     : "mongodb://127.0.0.1/layGame",
     "options" : {
       "db"      : { "native_parser": true },
       "server"  : { "poolSize": 5, "socketOptions" : { "keepAlive": 1 } },
