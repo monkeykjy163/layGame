@@ -4,9 +4,23 @@
   "private": true,
   "dependencies": {
     "pomelo":"1.0.0-pre"
+    , "pomelo-aoi" : ">=0.3.4"
+    , "pomelo-bt": ">=0.0.1"
+    , "pomelo-pathfinding": ">=0.1.0"
+    , "pomelo-logger": ">=0.0.3"
+    , "pomelo-monitor": ">=0.3.3"
+    , "pomelo-sync-plugin": "0.0.1"
+    , "pomelo-masterha-plugin": "0.0.4"
+    , "pomelo-scheduler": ">=0.0.1"
+    , "async":">=0.0.1"
+    , "crc-32":">=0.0.1"
+    , "mysql":">=0.0.1"
+    , "uuid": ">=0.0.1"
+    , "crypto-js": ">=0.0.1"
+    , "csv2array": ">=0.0.4"
     , "crc" : ">=0.0.1"
     , "pomelo-collection": ">=0.1.0"
-    , "pomelo-logger": "0.0.2" 
+    , "mongoose": ">=1.0.0"
   }
 }
 
