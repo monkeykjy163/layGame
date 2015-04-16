@@ -9,7 +9,6 @@ var app = pomelo.createApp();
 app.set('name', 'treasures');
 
 app.configure('production|development', function() {
-    app.loadConfig('mongodbConfig',app.getBase() + '/config/mongodb.json');
 });
 app.configure('production|development', 'gate', function(){
   app.set('connectorConfig', {
@@ -32,14 +31,6 @@ app.configure('production|development', 'area', function(){
     throw new Error('load area config failed');
   }
   area.init(dataApi.area.findById(areaId));
-});
-
-// Configure mongodb
-app.configure('production|development', 'area|auth', function() {
-    var mongodb = require('./app/database/mongodb');
-    app.set('mongodb', mongodb);
-
-    mongodb.init(app);
 });
 
 // start app
