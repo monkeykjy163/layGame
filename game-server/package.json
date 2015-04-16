@@ -20,7 +20,6 @@
     , "csv2array": ">=0.0.4"
     , "crc" : ">=0.0.1"
     , "pomelo-collection": ">=0.1.0"
-    , "mongoose": ">=1.0.0"
   }
 }
 
