@@ -1,4 +1,4 @@
-var Code = require('../../../../../shared/code');
+var Code = require('../../../../../shared/consts/code');
 var dispatcher = require('../../../util/dispatcher');
 
 /**

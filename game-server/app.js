@@ -4,6 +4,7 @@ var dataApi = require('./app/util/dataApi');
 var fs = require('fs');
 var path = require('path');
 var utils = require('./app/util/utils');
+var Monkey = require('../shared/');
 
 /**
  * Init app for client.

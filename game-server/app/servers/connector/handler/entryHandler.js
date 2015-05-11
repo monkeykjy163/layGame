@@ -1,4 +1,4 @@
-var Code = require('../../../../../shared/code');
+var Code = require('../../../../../shared/consts/code');
 
 module.exports = function(app) {
   return new Handler(app);
